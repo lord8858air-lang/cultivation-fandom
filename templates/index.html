@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cultivation Fandom</title>
-    <link rel="stylesheet" href="/static/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Cultivation Fandom</title>
+  <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
 <header>
-    <h1>⚔️ Cultivation • Donghua • Manhwa Fandom</h1>
-    <p>Power Levels • Breakthroughs • Ages • Episodes</p>
+  <h1>⚔️ Cultivation Fandom</h1>
+  <p>Donghua • Manhwa • Murim • Power Levels</p>
 </header>
 
 <div class="container">
-{% for n in novels %}
-<div class="card">
-    <h2>{{ n.title }}</h2>
-    <p><b>Main Character:</b> {{ n.mc }}</p>
-    <p><b>Starting Age:</b> {{ n.start_age }}</p>
-    <p><b>Power System:</b> {{ n.power_system }}</p>
 
-    <h3>🔥 Breakthrough History</h3>
-    <ul>
-        {% for b in n.breakthroughs %}
-        <li>
-            <span>{{ b.level }}</span>
-            <small>Chapter {{ b.chapter }} • Age {{ b.age }}</small>
-        </li>
-        {% endfor %}
-    </ul>
+  <div class="card">
+    <h2>Martial Peak</h2>
+    <p><b>MC:</b> Yang Kai</p>
+    <p><b>Realm:</b> Open Heaven</p>
+    <p><b>Breakthrough:</b> Chapter 600+</p>
+    <p><b>Donghua:</b> Episode 120+</p>
+  </div>
 
-    <div class="tags">
-        <span>📘 Manhua: {{ n.manhua }}</span>
-        <span>🎬 Donghua: {{ n.donghua }}</span>
-    </div>
-</div>
-{% endfor %}
+  <div class="card">
+    <h2>Battle Through The Heavens</h2>
+    <p><b>MC:</b> Xiao Yan</p>
+    <p><b>Realm:</b> Dou Di</p>
+    <p><b>Breakthrough:</b> Final Arc</p>
+    <p><b>Donghua:</b> Season 5</p>
+  </div>
+
+  <div class="card">
+    <h2>Tales of Demons & Gods</h2>
+    <p><b>MC:</b> Nie Li</p>
+    <p><b>Realm:</b> Martial Ancestor</p>
+    <p><b>Manhwa:</b> Chapter 450+</p>
+  </div>
+
 </div>
 
 <footer>
-    <p>© Cultivation Fandom | Built with Flask & Render</p>
+  © 2025 Cultivation Fandom • Built by Deepak
 </footer>
 
 </body>
