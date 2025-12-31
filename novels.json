@@ -1,0 +1,29 @@
+{
+  "renegade immortal": {
+    "title": "Renegade Immortal",
+    "mc": "Wang Lin",
+    "realm": "Third Step",
+    "breakthrough_chapter": 2089,
+    "age": "2000+",
+    "manhwa": 180,
+    "donghua": 52
+  },
+  "martial peak": {
+    "title": "Martial Peak",
+    "mc": "Yang Kai",
+    "realm": "Open Heaven",
+    "breakthrough_chapter": 6009,
+    "age": "Unknown",
+    "manhwa": 3700,
+    "donghua": 0
+  },
+  "apotheosis": {
+    "title": "Apotheosis",
+    "mc": "Luo Zheng",
+    "realm": "True God",
+    "breakthrough_chapter": 1100,
+    "age": "Unknown",
+    "manhwa": 1200,
+    "donghua": 104
+  }
+}
